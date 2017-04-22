@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [express-force-ssl (v0.3.2)](http://github.com/battlejj/express-force-ssl) [![npm package](https://img.shields.io/npm/v/npmtest-express-force-ssl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-force-ssl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-force-ssl.svg)](https://travis-ci.org/npmtest/node-npmtest-express-force-ssl)",
+    "description": "#### basic test coverage for  [express-force-ssl (v0.3.2)](http://github.com/battlejj/express-force-ssl)  [![npm package](https://img.shields.io/npm/v/npmtest-express-force-ssl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-force-ssl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-force-ssl.svg)](https://travis-ci.org/npmtest/node-npmtest-express-force-ssl)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "express-force-ssl": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.23"
 }

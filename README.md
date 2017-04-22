@@ -1,4 +1,7 @@
-# test coverage for  [express-force-ssl (v0.3.2)](http://github.com/battlejj/express-force-ssl)  [![npm package](https://img.shields.io/npm/v/npmtest-express-force-ssl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-force-ssl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-force-ssl.svg)](https://travis-ci.org/npmtest/node-npmtest-express-force-ssl)
+# npmtest-express-force-ssl
+
+#### basic test coverage for  [express-force-ssl (v0.3.2)](http://github.com/battlejj/express-force-ssl)  [![npm package](https://img.shields.io/npm/v/npmtest-express-force-ssl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-force-ssl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-force-ssl.svg)](https://travis-ci.org/npmtest/node-npmtest-express-force-ssl)
+
 #### Force SSL on particular/all pages in Express
 
 [![NPM](https://nodei.co/npm/express-force-ssl.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/express-force-ssl)
@@ -92,7 +95,8 @@
     "scripts": {
         "test": "mocha test"
     },
-    "version": "0.3.2"
+    "version": "0.3.2",
+    "bin": {}
 }
 ```
 
